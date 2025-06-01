@@ -26,8 +26,7 @@ tailrec fun factorial(number: Int, run: BigInteger = BigInteger.ONE): BigInteger
     throw ArithmeticException(MESSAGE)
 } else {
     when (number) {
-        0 -> BigInteger.ZERO
-        1 -> run
+        0, 1 -> run
         else -> factorial(number - 1, run.multiply(number.toBigInteger()))
     }
 }
