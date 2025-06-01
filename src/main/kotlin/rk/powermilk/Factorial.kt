@@ -1,4 +1,4 @@
-package org.powermilk
+package rk.powermilk
 
 import java.math.BigInteger
 
@@ -8,7 +8,7 @@ import java.math.BigInteger
 internal const val MESSAGE = "The number should be greater or equal to 0"
 
 /**
- * Function creates string with n! steps.
+ * Function creates a string with n! steps.
  *
  * @param number number to calculate n!.
  * @return string with a factorial step for 0 to [number].
