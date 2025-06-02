@@ -1,8 +1,12 @@
 # Kotlin Factorial Calculator
 
-![Kotlin](https://img.shields.io/badge/kotlin-1.9+-blue.svg)
-![Build](https://img.shields.io/github/actions/workflow/status/your-username/factorial-calculator/build.yml?label=build)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)](https://semver.org)
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![Build](https://github.com/rkociniewski/factorial/actions/workflows/main.yml/badge.svg)](https://github.com/rkociniewski/factorial/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/rkociniewski/factorial/branch/main/graph/badge.svg)](https://codecov.io/gh/rkociniewski/factorial)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.21-blueviolet?logo=kotlin)](https://kotlinlang.org/)
+[![Gradle](https://img.shields.io/badge/Gradle-8.14.1-blue?logo=gradle)](https://gradle.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-greem.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
@@ -23,3 +27,20 @@ The project includes:
 ```kotlin
 val result = factorial(5)
 println(result) // Output: 120
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Built With
+
+* [Gradle](https://gradle.org/) - Dependency Management
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+* **Rafał Kociniewski** - [PowerMilk](https://github.com/rkociniewski)
