@@ -10,9 +10,11 @@
 
 ## Overview
 
-This is a simple Kotlin project demonstrating a **tail-recursive implementation** of the factorial function using `BigInteger`, along with utility functions and unit tests written with JUnit 5.
+This is a simple Kotlin project demonstrating a **tail-recursive implementation** of the factorial function using
+`BigInteger`, along with utility functions and unit tests written with JUnit 5.
 
 The project includes:
+
 - Recursive factorial calculation
 - Safe input handling (throws on negative values)
 - Formatted string output of factorial steps
